@@ -1,16 +1,47 @@
-# React + Vite
+# 🎬 Movie Recommendation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fast, and responsive **movie recommendation platform** built with **React 19** and **Vite**.  
+This project demonstrates modular React architecture, optimized performance with Vite, and seamless routing with React Router.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## React Compiler
+### 1️⃣ Install dependencies
+```bash
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2️⃣ Run the app in development mode
 
-## Expanding the ESLint configuration
+npm run dev
+The app will start at http://localhost:5173 by default.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Available Scripts
+npm run dev	-> Starts the development server
+npm run build -> Builds the app for production (outputs to /dist)
+npm run preview	-> Locally preview the production build
+npm run lint	-> Run ESLint to check code quality (if configured)
+
+### Build for Production
+npm run build
+
+
+### Deployment
+✅ Set your Build Command to npm run build
+✅ Set your Publish Directory to dist
+
+Features
+🎞️ Movie discovery and personalized recommendations
+
+🔍 Smart search and filtering
+
+⭐ Add to favorites or watchlist
+
+💡 Modern and responsive UI
+
+⚡ Built using React 19 + Vite for lightning-fast performance
+
+🔁 Smooth navigation with React Router DOM v6
+
+👨‍💻 Author
+Divyanshu Pathak
